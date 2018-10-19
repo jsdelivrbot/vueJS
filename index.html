@@ -1,0 +1,13 @@
+<html>
+<head>
+<title></title>
+<script src="https://cdn.rawgit.com/dmester/jdenticon/5bbdf8cb/dist/jdenticon.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+</head>
+<div id="app">
+  <input class="input" @input="onInput" type="text" placeholder="Enter some text"><br>
+ <div>
+  Output:
+  <div v-html="identicon" />
+  <script src="identi.js"></script>
+</div>
